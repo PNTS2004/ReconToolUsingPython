@@ -19,3 +19,5 @@ with open(file_path, 'r') as file:
             if hashed_word==hash_to_decrypt:
                 print('Found SHA1 Password: ' + line.strip())
                 exit (0)
+
+    print("Password not in file")
